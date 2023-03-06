@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.1)
+project(tencent_cloud_cpp_sample)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(tencent_cloud_cpp_sample tencent_cloud_cpp_sample.cpp)
+target_link_libraries(tencent_cloud_cpp_sample tencentcloud-sdk-cpp-PRODUCT_NAME tencentcloud-sdk-cpp-core)
